@@ -8,7 +8,7 @@ from llama_index.core import (
 
 st.set_page_config(page_title="Chat with Streamlit docs using local LLM", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.title("Chat with Streamlit docs using local LLM 💬🦙")
-st.info("Check out the page at [GitHub](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
+st.info("Check out the page at [GitHub](https://github.com/JunyiYe/rag-local)", icon="📃")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
