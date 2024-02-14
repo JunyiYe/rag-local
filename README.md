@@ -1,9 +1,9 @@
 # 🦙📚 Chat with Streamlit Docs Using Local LLM
 
-Code base: https://github.com/carolinedlu/llamaindex-chat-with-streamlit-docs/tree/main
+Code base: https://github.com/carolinedlu/llamaindex-chat-with-streamlit-docs/tree/main<br>
 Build a chatbot powered by local LLM with the contents of the Streamlit docs (or your own data).
 
-Embeddding model: BAAI/bge-small-en-v1.5 (HuggingFace)
+Embeddding model: BAAI/bge-small-en-v1.5 (HuggingFace)<br>
 Local LLM: Mistral 7b (Ollama)
 
 ## Overview of the App
@@ -19,7 +19,7 @@ Local LLM: Mistral 7b (Ollama)
 3. Open another terminal and download the model Mistral by running "ollama pull mistral:instruct".
 
 ## Try out the app
-Run the app by executing "streamlit run streamlit_app_local.py".
+Run the app by executing "streamlit run streamlit_app_local.py".<br>
 Once the app is loaded, enter your question about the Streamlit library and wait for a response.
 
 ## Issue
