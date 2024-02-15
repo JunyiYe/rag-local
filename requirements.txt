@@ -1,5 +1,12 @@
 streamlit
 openai
-llama-index
+transformers
+sentence-transformers
 nltk
 pypdf
+optimum[exporters]
+llama-index
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+llama-index-embeddings-huggingface-optimum
+
