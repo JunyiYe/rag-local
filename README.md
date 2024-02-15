@@ -14,15 +14,14 @@ Local LLM: Mistral 7b (Ollama)
 - Uses LlamaIndex to load and index data and create a chat engine that will retrieve context from that data to respond to each user query
 
 ## Preparation
-1. Install packages Ollama (https://ollama.com/), Llama-Index (https://docs.llamaindex.ai/en/stable/getting_started/installation.html), and any others you may need.
+1. Install packages Ollama (https://ollama.com/).
 2. Open the terminal and launch Ollama serve by executing "ollama serve".
 3. Open another terminal and download the model Mistral by running "ollama pull mistral:instruct".
+4. Install other packages by running "pip install -r requirement.txt".
+5. You may encounter an error with Optimum (1.16.2) of 'KeyError: 'last_hidden_state''. You can fix this error by following the modifications outlined here: [https://github.com/huggingface/optimum/pull/1674/files].
 
 ## Try out the app
-Run the app by executing "streamlit run streamlit_app_local.py".<br>
+Run the app by executing "streamlit run streamlit_app.py".<br>
 Once the app is loaded, enter your question about the Streamlit library and wait for a response.
-
-## Issue
-The information retrieval step is very slow (on GeForce RTX 4080) compared to LLM generation.
 
 
