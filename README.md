@@ -15,13 +15,13 @@ Local LLM: Mistral 7b (Ollama)
 
 ## Preparation
 1. Install packages Ollama (https://ollama.com/).
-2. Open the terminal and launch Ollama serve by executing "ollama serve".
-3. Open another terminal and download the model Mistral by running "ollama pull mistral:instruct".
-4. Install other packages by running "pip install -r requirement.txt".
+2. Open the terminal and launch Ollama serve by executing `ollama serve`.
+3. Open another terminal and download the model Mistral by running `ollama pull mistral:instruct`.
+4. Install other packages by running `pip install -r requirement.txt`.
 5. You may encounter an error with Optimum (1.16.2) of 'KeyError: 'last_hidden_state''. You can fix this error by following the modifications outlined here: [https://github.com/huggingface/optimum/pull/1674/files].
 
 ## Try out the app
-Run the app by executing "streamlit run streamlit_app.py".<br>
+Run the app by executing `streamlit run streamlit_app.py`.<br>
 Once the app is loaded, enter your question about the Streamlit library and wait for a response.
 
 
